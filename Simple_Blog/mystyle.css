@@ -1,0 +1,153 @@
+body {
+  margin: 10px auto;
+  min-width: 250px;
+  max-width: 95%;
+  padding-top: 200px;
+  padding-left: 200px;
+  /* background-color: silver; */
+}
+* {
+  box-sizing: border-box;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  /* background: #eee; */
+  font-size: 18px;
+  transition: 0.2s;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.header {
+  background-color:  rgb(12, 92, 12);
+  color: white;
+  padding: 30px 40px;
+  text-align: center;
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+.addBtn {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: rgb(12, 92, 12);
+  color: white;
+  padding: 14px 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.addBtn:hover {
+  background-color: darkslategrey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 {
+  height: 250px;
+}
+@media (min-width: 768px) {
+  .h-md-250 {
+    height: 250px;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  height: 200px;
+  position: relative;
+  /* border: 3px solid grey; */
+}
+
+.blog-pagination > .btn {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#addBtn {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: rgb(12, 92, 12);
+  color: white;
+  padding: 14px 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.myInput {
+  width: 100%;
+}
+
